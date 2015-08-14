@@ -5,7 +5,7 @@
  
 ## Presentation:
 #### 模拟场景<选择折扣>有滚动选中中间Item和点击效果Item等效果
-![(MLPickerScrollView gif)](http://github.com/kissMelody/MLPickerScrollView/MLPickerScrollView.gif)
+![](http://github.com/kissMelody/MLPickerScrollView/MLPickerScrollView.gif)
 
 ## Usage:
 #### 代码例子:选择场景为 选择折扣
