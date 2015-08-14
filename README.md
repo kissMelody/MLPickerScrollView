@@ -11,7 +11,7 @@
 
 ## Usage:
 #### 代码例子:选择场景为 选择折扣
-
+```objective-c
    // 1.数据源
     data = [NSMutableArray array];
     NSArray *titleArray = @[@"不打折",@"9折",@"8折",@"7折",@"6折",@"5折",@"4折",@"3折",@"2折",@"1折"];
