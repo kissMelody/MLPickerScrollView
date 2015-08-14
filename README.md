@@ -4,8 +4,9 @@
 * 这是一个对横向滚动选择器的自定义UI控件，只要几行代码就可以集成类似横向滚动中间放大的效果并且选中的功能。
  
 ## Presentation:
-#### 模拟场景<选择折扣>有滚动选中中间Item和点击效果Item等效果
-![](http://github.com/kissMelody/MLPickerScrollView/MLPickerScrollView.gif)
+#### 模拟场景<选择折扣>
+效果:有滚动选中中间Item和点击效果Item
+![](http://github.com/kissMelody/MLPickerScrollView/master/MLPickerScrollView.gif)
 
 ## Usage:
 #### 代码例子:选择场景为 选择折扣
