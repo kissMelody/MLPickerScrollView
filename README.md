@@ -47,6 +47,8 @@
          _pickerScollView.seletedIndex = number;
         [_pickerScollView scollToSelectdIndex:number];
     }
+    
+```
 ## Requirement:
 * iOS7.0以上
 * Xcode 6
