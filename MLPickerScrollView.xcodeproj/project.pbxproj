@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F315D2C1B7DBAFD00896084 /* MLPickerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F315D2B1B7DBAFD00896084 /* MLPickerScrollView.m */; };
+		5F315D2F1B7DBB3500896084 /* MLPickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F315D2E1B7DBB3500896084 /* MLPickerItem.m */; };
+		5F315D321B7DBB8000896084 /* MLDemoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F315D311B7DBB8000896084 /* MLDemoItem.m */; };
+		5F315D351B7DC21300896084 /* MLDemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F315D341B7DC21300896084 /* MLDemoModel.m */; };
+		5F648F961B79FF8C0022BC63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F648F951B79FF8C0022BC63 /* main.m */; };
+		5F648F991B79FF8C0022BC63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F648F981B79FF8C0022BC63 /* AppDelegate.m */; };
+		5F648F9C1B79FF8C0022BC63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F648F9B1B79FF8C0022BC63 /* ViewController.m */; };
+		5F648F9F1B79FF8C0022BC63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F648F9D1B79FF8C0022BC63 /* Main.storyboard */; };
+		5F648FA11B79FF8C0022BC63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F648FA01B79FF8C0022BC63 /* Images.xcassets */; };
+		5F648FA41B79FF8D0022BC63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F648FA21B79FF8D0022BC63 /* LaunchScreen.xib */; };
+		5F648FB01B79FF8D0022BC63 /* MLPickerScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F648FAF1B79FF8D0022BC63 /* MLPickerScrollViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F648FAA1B79FF8D0022BC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F648F881B79FF8C0022BC63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F648F8F1B79FF8C0022BC63;
+			remoteInfo = MLPickerScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F315D2A1B7DBAFD00896084 /* MLPickerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPickerScrollView.h; sourceTree = "<group>"; };
+		5F315D2B1B7DBAFD00896084 /* MLPickerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPickerScrollView.m; sourceTree = "<group>"; };
+		5F315D2D1B7DBB3500896084 /* MLPickerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPickerItem.h; sourceTree = "<group>"; };
+		5F315D2E1B7DBB3500896084 /* MLPickerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPickerItem.m; sourceTree = "<group>"; };
+		5F315D301B7DBB8000896084 /* MLDemoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDemoItem.h; sourceTree = "<group>"; };
+		5F315D311B7DBB8000896084 /* MLDemoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDemoItem.m; sourceTree = "<group>"; };
+		5F315D331B7DC21300896084 /* MLDemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDemoModel.h; sourceTree = "<group>"; };
+		5F315D341B7DC21300896084 /* MLDemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDemoModel.m; sourceTree = "<group>"; };
+		5F648F901B79FF8C0022BC63 /* MLPickerScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLPickerScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F648F941B79FF8C0022BC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F648F951B79FF8C0022BC63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F648F971B79FF8C0022BC63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F648F981B79FF8C0022BC63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F648F9A1B79FF8C0022BC63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F648F9B1B79FF8C0022BC63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F648F9E1B79FF8C0022BC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F648FA01B79FF8C0022BC63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5F648FA31B79FF8D0022BC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5F648FA91B79FF8D0022BC63 /* MLPickerScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLPickerScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F648FAE1B79FF8D0022BC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F648FAF1B79FF8D0022BC63 /* MLPickerScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLPickerScrollViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F648F8D1B79FF8C0022BC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F648FA61B79FF8D0022BC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F315D291B7DBABC00896084 /* MLPickerScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				5F315D2A1B7DBAFD00896084 /* MLPickerScrollView.h */,
+				5F315D2B1B7DBAFD00896084 /* MLPickerScrollView.m */,
+				5F315D2D1B7DBB3500896084 /* MLPickerItem.h */,
+				5F315D2E1B7DBB3500896084 /* MLPickerItem.m */,
+			);
+			path = MLPickerScrollView;
+			sourceTree = "<group>";
+		};
+		5F648F871B79FF8C0022BC63 = {
+			isa = PBXGroup;
+			children = (
+				5F648F921B79FF8C0022BC63 /* MLPickerScrollView */,
+				5F648FAC1B79FF8D0022BC63 /* MLPickerScrollViewTests */,
+				5F648F911B79FF8C0022BC63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F648F911B79FF8C0022BC63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F648F901B79FF8C0022BC63 /* MLPickerScrollView.app */,
+				5F648FA91B79FF8D0022BC63 /* MLPickerScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F648F921B79FF8C0022BC63 /* MLPickerScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				5F315D291B7DBABC00896084 /* MLPickerScrollView */,
+				5F648F971B79FF8C0022BC63 /* AppDelegate.h */,
+				5F648F981B79FF8C0022BC63 /* AppDelegate.m */,
+				5F648F9A1B79FF8C0022BC63 /* ViewController.h */,
+				5F648F9B1B79FF8C0022BC63 /* ViewController.m */,
+				5F315D301B7DBB8000896084 /* MLDemoItem.h */,
+				5F315D311B7DBB8000896084 /* MLDemoItem.m */,
+				5F315D331B7DC21300896084 /* MLDemoModel.h */,
+				5F315D341B7DC21300896084 /* MLDemoModel.m */,
+				5F648F9D1B79FF8C0022BC63 /* Main.storyboard */,
+				5F648FA01B79FF8C0022BC63 /* Images.xcassets */,
+				5F648FA21B79FF8D0022BC63 /* LaunchScreen.xib */,
+				5F648F931B79FF8C0022BC63 /* Supporting Files */,
+			);
+			path = MLPickerScrollView;
+			sourceTree = "<group>";
+		};
+		5F648F931B79FF8C0022BC63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F648F941B79FF8C0022BC63 /* Info.plist */,
+				5F648F951B79FF8C0022BC63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F648FAC1B79FF8D0022BC63 /* MLPickerScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F648FAF1B79FF8D0022BC63 /* MLPickerScrollViewTests.m */,
+				5F648FAD1B79FF8D0022BC63 /* Supporting Files */,
+			);
+			path = MLPickerScrollViewTests;
+			sourceTree = "<group>";
+		};
+		5F648FAD1B79FF8D0022BC63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F648FAE1B79FF8D0022BC63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F648F8F1B79FF8C0022BC63 /* MLPickerScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F648FB31B79FF8D0022BC63 /* Build configuration list for PBXNativeTarget "MLPickerScrollView" */;
+			buildPhases = (
+				5F648F8C1B79FF8C0022BC63 /* Sources */,
+				5F648F8D1B79FF8C0022BC63 /* Frameworks */,
+				5F648F8E1B79FF8C0022BC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLPickerScrollView;
+			productName = MLPickerScrollView;
+			productReference = 5F648F901B79FF8C0022BC63 /* MLPickerScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F648FA81B79FF8D0022BC63 /* MLPickerScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F648FB61B79FF8D0022BC63 /* Build configuration list for PBXNativeTarget "MLPickerScrollViewTests" */;
+			buildPhases = (
+				5F648FA51B79FF8D0022BC63 /* Sources */,
+				5F648FA61B79FF8D0022BC63 /* Frameworks */,
+				5F648FA71B79FF8D0022BC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F648FAB1B79FF8D0022BC63 /* PBXTargetDependency */,
+			);
+			name = MLPickerScrollViewTests;
+			productName = MLPickerScrollViewTests;
+			productReference = 5F648FA91B79FF8D0022BC63 /* MLPickerScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F648F881B79FF8C0022BC63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = MelodyLuo;
+				TargetAttributes = {
+					5F648F8F1B79FF8C0022BC63 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					5F648FA81B79FF8D0022BC63 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 5F648F8F1B79FF8C0022BC63;
+					};
+				};
+			};
+			buildConfigurationList = 5F648F8B1B79FF8C0022BC63 /* Build configuration list for PBXProject "MLPickerScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F648F871B79FF8C0022BC63;
+			productRefGroup = 5F648F911B79FF8C0022BC63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F648F8F1B79FF8C0022BC63 /* MLPickerScrollView */,
+				5F648FA81B79FF8D0022BC63 /* MLPickerScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F648F8E1B79FF8C0022BC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F648F9F1B79FF8C0022BC63 /* Main.storyboard in Resources */,
+				5F648FA41B79FF8D0022BC63 /* LaunchScreen.xib in Resources */,
+				5F648FA11B79FF8C0022BC63 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F648FA71B79FF8D0022BC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F648F8C1B79FF8C0022BC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F315D321B7DBB8000896084 /* MLDemoItem.m in Sources */,
+				5F315D351B7DC21300896084 /* MLDemoModel.m in Sources */,
+				5F315D2C1B7DBAFD00896084 /* MLPickerScrollView.m in Sources */,
+				5F648F9C1B79FF8C0022BC63 /* ViewController.m in Sources */,
+				5F648F991B79FF8C0022BC63 /* AppDelegate.m in Sources */,
+				5F315D2F1B7DBB3500896084 /* MLPickerItem.m in Sources */,
+				5F648F961B79FF8C0022BC63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F648FA51B79FF8D0022BC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F648FB01B79FF8D0022BC63 /* MLPickerScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F648FAB1B79FF8D0022BC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F648F8F1B79FF8C0022BC63 /* MLPickerScrollView */;
+			targetProxy = 5F648FAA1B79FF8D0022BC63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F648F9D1B79FF8C0022BC63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F648F9E1B79FF8C0022BC63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F648FA21B79FF8D0022BC63 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F648FA31B79FF8D0022BC63 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F648FB11B79FF8D0022BC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F648FB21B79FF8D0022BC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F648FB41B79FF8D0022BC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MLPickerScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F648FB51B79FF8D0022BC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MLPickerScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F648FB71B79FF8D0022BC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MLPickerScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLPickerScrollView.app/MLPickerScrollView";
+			};
+			name = Debug;
+		};
+		5F648FB81B79FF8D0022BC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MLPickerScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLPickerScrollView.app/MLPickerScrollView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F648F8B1B79FF8C0022BC63 /* Build configuration list for PBXProject "MLPickerScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F648FB11B79FF8D0022BC63 /* Debug */,
+				5F648FB21B79FF8D0022BC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F648FB31B79FF8D0022BC63 /* Build configuration list for PBXNativeTarget "MLPickerScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F648FB41B79FF8D0022BC63 /* Debug */,
+				5F648FB51B79FF8D0022BC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F648FB61B79FF8D0022BC63 /* Build configuration list for PBXNativeTarget "MLPickerScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F648FB71B79FF8D0022BC63 /* Debug */,
+				5F648FB81B79FF8D0022BC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F648F881B79FF8C0022BC63 /* Project object */;
+}
