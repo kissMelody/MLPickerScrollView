@@ -6,8 +6,8 @@
 ## Presentation:
 #### 模拟场景<选择折扣>
 效果:有滚动选中中间Item和点击效果Item
-![gif](https://raw.github.com/valitovaza/scrollableTabbar/master/IDScrollableTabBar.png)
-![](https://github.com/kissMelody/MLPickerScrollView/master/MLPickerScrollView.gif)
+
+![](https://github.com/kissMelody/MLPickerScrollView/MLPickerScrollView.gif)
 
 ## Usage:
 #### 代码例子:选择场景为 选择折扣
