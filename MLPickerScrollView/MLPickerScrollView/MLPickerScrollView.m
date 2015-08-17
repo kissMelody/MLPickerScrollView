@@ -92,7 +92,7 @@
     }
     [self.items removeAllObjects];
     
-    // creat
+    // create
     NSInteger count = 0;
     if ([self.dataSource respondsToSelector:@selector(numberOfItemAtPickerScrollView:)]) {
         count = [self.dataSource numberOfItemAtPickerScrollView:self];
