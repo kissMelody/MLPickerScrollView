@@ -4,7 +4,7 @@
 //
 //  Created by MelodyLuo on 15/8/14.
 //  Copyright (c) 2015年 MelodyLuo. All rights reserved.
-//  Github 地址：
+//  Github 地址：https://github.com/kissMelody/MLPickerScrollView
 /**
  *  BaseItem
  */
